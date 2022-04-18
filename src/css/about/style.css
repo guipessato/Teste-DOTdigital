@@ -1,0 +1,48 @@
+.about {
+    background: #6f6f6f;
+}
+
+.about__container {
+    max-width: 1180px;
+    margin: 0 auto;
+    padding: 40px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.about__infos {
+    max-width: 665px;
+}
+
+.about__image {
+    max-width: 420px;
+    max-height: 420px;
+}
+
+.about__title,
+.about__text {
+    color: #FFF;
+    text-align: left;
+}
+
+.about__title {
+    font-size: 36px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+
+.about__text {
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 18px;
+}
+
+.about__text strong {
+    font-weight: bold;
+}
+
+.about__text i {
+    font-style: italic;
+}
