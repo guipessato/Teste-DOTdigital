@@ -15,11 +15,6 @@
     max-width: 665px;
 }
 
-.about__image {
-    max-width: 420px;
-    max-height: 420px;
-}
-
 .about__title,
 .about__text {
     color: #FFF;
@@ -45,4 +40,26 @@
 
 .about__text i {
     font-style: italic;
+}
+
+/* MOBILE */
+@media (max-width: 991px) {
+    .about__container {
+        flex-direction: column;
+        padding: 20px 20px 40px;
+    }
+
+    .about__title,
+    .about__text {
+        text-align: center;
+    }
+
+    .about__title {
+        margin-top: 20px;
+    }
+
+    .about__figure,
+    .about__image {
+        max-width: 320px;
+    }
 }

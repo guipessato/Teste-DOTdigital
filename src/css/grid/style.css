@@ -52,3 +52,31 @@
     line-height: 18px;
     max-width: 300px;
 }
+
+/* MOBILE */
+@media (max-width: 991px) {
+    .grid__container {
+        flex-direction: column;
+        padding: 20px 20px 40px;
+    }
+
+    .grid__list {
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+
+    .grid__item {
+        margin-bottom: 30px;
+    }
+
+    .grid__item:last-child {
+        margin-bottom: 0px;
+    }
+
+    .grid__figure,
+    .grid__image {
+        width: 300px;
+        height: 200px;
+    }
+
+}

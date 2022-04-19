@@ -1,0 +1,11 @@
+img.lazy-new {
+    transition: 222ms;
+    height: 32px;
+    width: 32px;
+    margin: auto;
+    text-align: center;
+    position: relative;
+    top: 50%;
+    right: -50%;
+    transform: translate(-50%, -50%);
+}
