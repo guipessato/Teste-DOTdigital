@@ -10,8 +10,8 @@ O projeto foi desenvolvido conforme checklist disponibilizado:
 - [x] O resultado deve ser responsivo e a versão mobile deve condizer com o arquivo PSD mobile
 - [x] O código deve estar semânticamente correto, bem organizado e estruturado.
 - [x] Utilizar automatizador de tarefa (gulp)
-- [x] - O conteúdo final deve ser funcional na última e penúltima versão dos principais navegadores.
-- [x] - - Não é permitido utilizar framework e pré processadores CSS;
+- [x] O conteúdo final deve ser funcional na última e penúltima versão dos principais navegadores.
+- [x] Não é permitido utilizar framework e pré processadores CSS;
 
 
 ## 🚀 Instalando
@@ -43,4 +43,5 @@ gulp
     </td>
   </tr>
 </table>
+
 
